@@ -1,0 +1,134 @@
+.navbar{
+    max-height: 60px;
+    background-color: #05161A!important;
+}
+
+.nav-link{
+    color: white;
+}
+
+.navbar-brand img{
+    max-height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-light {
+    max-height: 50px;
+}
+
+header .row{
+    min-height: 100vh;
+    /*background-image: url(../img/!aslogo.png);*/
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(35, 55, 59);
+    align-items: center;
+}
+/*------------------------------------------------------------*/
+header .formBox{
+    /*background-color: rgba(104, 43, 43, 0.5);*/
+    min-height: vh;
+    max-height: vh;
+    display: ;
+    align-items: center;
+    padding-bottom: 40vh;
+}
+
+.titrevitrine{
+    color: #e2a843;
+    min-height: vh;
+    max-height: vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10vh;
+    padding-top: 15vh;
+}
+
+.textserveur{
+    color: #17a2b8;
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+    /*---------*/
+
+header .formBox1{
+    background-color: rgba(160, 83, 83, 0.5);
+    min-height: 2vh;
+    max-height: vh;
+    display: flex;
+    align-items: center;
+    /*background-image: url(../img/probendscreen.jpg);*/
+}
+
+header .formBox2{
+    background-color: rgba(236, 45, 45, 0.5);
+    min-height: vh;
+    max-height: vh;
+    display: flex;
+    align-items: center;
+}
+/*------------------------------------------------------------*/
+#presentation .media span{
+    color:#4f48f3;
+    font-size:3rem;
+    background-color: grey;
+    width: 4rem;
+    text-align: center;
+}
+
+#presentation .media{
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+#presentation .media:hover{
+    background-color: black;
+    color: white;
+}
+
+.avisprobend{
+    background-color: #d3dae4;
+    min-height: calc(100vh - 50px);
+}
+
+.avisprobend span{
+    font-size: 5rem;
+    color:#17a2b8;
+}
+
+.avisprobend h5{
+    font-size: 2.5rem;
+    color:#888;
+}
+
+.fondphoto{
+    background-image: url(../img/probend.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh - 50px);
+}
+
+footer{
+    background-color: rgba(0,0,0,.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a{
+    color:#999;
+    font-size: 2rem;
+    transition: all .2s easy-in-out;
+}
+
+footer a:hover{
+    color:#fff;
+    text-decoration:none;
+}
